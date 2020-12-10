@@ -8,7 +8,7 @@ class MainKtTest {
     @Test
     fun calculatePriceUserLevelGoldDiscount() {
         val itemCount = 11
-        val expected = 900
+        val expected = 800
 
         val result = calculatePrice(
             itemCount = itemCount,
