@@ -1,0 +1,16 @@
+plugins {
+    id 'org.jetbrains.kotlin.jvm'
+}
+
+group 'ru.netology'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation(project(":models"))
+    implementation 'org.jetbrains.kotlin:kotlin-stdlib'
+    testImplementation 'junit:junit:4.13'
+}
